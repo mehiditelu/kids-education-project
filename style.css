@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .contact-btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Banner */
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #e0f7fa;
+  }
+  
+  .banner-content {
+    max-width: 50%;
+  }
+  
+  .banner-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .banner-content span {
+    color: #ff6f61;
+  }
+  
+  .banner-btn {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .banner-image img {
+    width: 300px;
+  }
+  
+  /* Standard Curriculum */
+  .curriculum {
+    text-align: center;
+    padding: 50px;
+    background-image: url('./assets/curriculum-bg.jpg');
+    background-size: cover;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .arrow-buttons {
+    margin-top: 20px;
+  }
+  
+  /* Our Stories Section */
+  .stories {
+    padding: 50px;
+    background: linear-gradient(45deg, #a1c4fd, #c2e9fb);
+  }
+  
+  .story-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .story-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(33.33% - 20px);
+  }
+  
+  .story-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .footer-column {
+    width: 30%;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Marquee */
+  .marquee {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links, .contact-btn {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  
+    .banner {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .banner-content {
+      max-width: 100%;
+    }
+  
+    .cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .story-cards {
+      flex-direction: column;
+    }
+  
+    .story-card {
+      width: 100%;
+    }
+  
+    footer {
+      flex-direction: column;
+    }
+  
+    .footer-column {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }

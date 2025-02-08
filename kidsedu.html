@@ -1,116 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kids-School</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+
+<body class="quicksand-font">
   <!-- Navbar -->
-  <nav>
+  <nav class="navbar">
     <div class="logo">
       <img src="./assets/logo.png" alt="">
-      <span>Kids-School</span>
+      <span style="font-weight: 700; font-size: 2rem;">School</span>
     </div>
     <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
+      <li><a href="" class="nav-text" style="color: rgb(254, 163, 1);">Home</a></li>
+      <li><a href="" class="nav-text" style="color: rgb(93, 88, 239);">Admission</a></li>
+      <li><a href="" class="nav-text" style="color: rgb(1, 172, 253);">About</a></li>
+      <li><a href="" class="nav-text" style="color: rgb(5, 212, 223);">Facilities</a></li>
     </div>
-    <button class="contact-btn">Contact Us</button> 
+    <button class="contact-btn">Contact Us</button>
     <div class="menu-icon">&#9776;</div>
   </nav>
+
+  <hr class="line" style="border: 1px solid rgb(247, 163, 6);">
+
 
   <!-- Banner -->
   <section class="banner">
     <div class="banner-content">
-      <h1>Welcome to <span>Kids-School</span></h1>
-      <p>We provide the best education for your children.</p>
-      <button class="banner-btn">Learn More</button>
+      <h1><span style="color: rgb(254, 163, 1);">Empowering</span> <br>
+        <span> students from small </span> <br>age <span style="color: rgb(1, 172, 253);">towards vision</span><br>
+      </h1>
+      <span>
+        <p>With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and
+          Dynamic World.</p>
+      </span><br>
+      <button class="banner-btn">Enroll Now</button>
     </div>
     <div class="banner-image">
-      <img src="./assets/child.png" alt="Child Image">
+      <img src="./assets/hero-kids.png" alt="">
     </div>
   </section>
 
   <!-- Standard Curriculum -->
   <section class="curriculum">
-    <h2>Standard Curriculum</h2>
+    <h2 style="font-size: 2.2rem; font-weight: 700px;">Standard Curriculum</h2>
     <div class="cards">
-      <div class="card">
-        <img src="./assets/card1.png" alt="Card 1">
-        <h3>Math</h3>
-        <a href="#">Read More</a>
+      <div class="card1">
+        <div><img src="./assets/kinder.png" alt=""></div>
+        <h3>Kinder (3-6) Years</h3>
+        <p>This section is for Kindergarden Schooler who are 3 to 6 years old to have fun.</p>
+        <a href="" style="text-decoration: none; color: #00b3ff;">Read More</a>
       </div>
-      <div class="card">
-        <img src="./assets/card2.png" alt="Card 2">
-        <h3>Science</h3>
-        <a href="#">Read More</a>
+      <div class="card2">
+        <div><img src="./assets/elementary.png" alt=""></div>
+        <h3>Elementary School</h3>
+        <p>This section is for Elementary Schooler who are more than 6 years old to have fun.</p>
+        <a href="" style="text-decoration: none; color: #ffae00;">Read More</a>
       </div>
-      <div class="card">
-        <img src="./assets/card3.png" alt="Card 3">
-        <h3>Arts</h3>
-        <a href="#">Read More</a>
+      <div class="card3">
+        <div><img src="./assets/middle.png" alt=""></div>
+        <h3>Middle (10-16) Years</h3>
+        <p>This section is for Middle Schooler who are more than 10 years old to have fun.</p>
+        <a href="" style="text-decoration: none; color: #6f00ff;">Read More</a>
       </div>
     </div>
     <div class="arrow-buttons">
-      <button>&larr;</button>
-      <button>&rarr;</button>
+      <button class="arrow">&#x2039;</button>
+      <button class="arrow">&#x203A;</button>
     </div>
   </section>
 
   <!-- Our Stories Section -->
   <section class="stories">
-    <h2>Our Stories</h2>
-    <div class="story-cards">
-      <div class="story-card">
-        <img src="./assets/story1.png" alt="Story 1">
-        <h3>Story 1</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
+    <div class="center">
+      <h2 style="font-weight: 700; font-size: 2.2rem;">Our Stories</h2>
+    </div>
+    <div class="stories-container">
+
+      <!-- Big Card -->
+      <div class="big-card">
+        <img src="assets/story-1.png" alt="Big Story Image">
+        <span class="date-tag date-blue">November 19, 2019</span>
+        <div class="big-card-content"> <br>
+          <div class="story-title">A fun toddler coloring training on classroom</div><br>
+          <p>Beautiful branding for changes by Never Now in Australia.
+            changes is a platform for open discussion in an inclusive and
+            collaborative environment, providing the...</p>
+        </div>
       </div>
-      <div class="story-card">
-        <img src="./assets/story2.png" alt="Story 2">
-        <h3>Story 2</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
+
+      <!-- Small Cards -->
+      <div class="small-cards">
+
+        <div class="story-card">
+          <img src="assets/story-2.png" alt="">
+          <span class="date-tag date-green">July 19, 2019</span>
+          <div class="story-content">
+            <div class="story-title">Conversation rhymes improve kids listening</div>
+          </div>
+        </div>
+
+        <div class="story-card">
+          <img src="assets/story-3.png" alt="">
+          <span class="date-tag date-blue">Nov 19, 2019</span>
+          <div class="story-content">
+            <div class="story-title">Summer math & literacy centres for kids</div>
+          </div>
+        </div>
+
+        <div class="story-card">
+          <img src="assets/story-4.png" alt="">
+          <span class="date-tag date-green">Sept 10, 2019</span>
+          <div class="story-content">
+            <div class="story-title">Classroom management techniques for new tutors</div>
+          </div>
+        </div>
+
+        <div class="story-card">
+          <img src="assets/story-5.png" alt="">
+          <span class="date-tag date-green">Nov 19, 2019</span>
+          <div class="story-content">
+            <div class="story-title">Find out if a school fits the family’s needs</div>
+          </div>
+        </div>
+
       </div>
-      <div class="story-card">
-        <img src="./assets/story3.png" alt="Story 3">
-        <h3>Story 3</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
-      <div class="story-card">
-        <img src="./assets/story4.png" alt="Story 4">
-        <h3>Story 4</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
-      <div class="story-card">
-        <img src="./assets/story5.png" alt="Story 5">
-        <h3>Story 5</h3>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
+
+    </div>
+    <div class="center">
+      <a href="" class="view-all-btn">View All</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="footer-column">
-      <img src="./assets/logo.png" alt="Logo">
-      <span>Kids-School</span>
-      <p>We provide the best education for your children.</p>
-    </div>
-    <div class="footer-column">
-      <h3>Quick Links</h3>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-    </div>
-    <div class="footer-column">
-      <h3>Follow Us</h3>
-      <div class="social-icons">
-        <a href="#"><img src="./assets/facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="./assets/twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="./assets/instagram.png" alt="Instagram"></a>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div>
+        <div class="footer-section logo">
+          <img src="assets/logo.png" alt="">
+          <h2>Kids <br> Education</h2>
+        </div>
+        <div>
+          <p>We provide the best education for your children.</p>
+        </div>
+      </div>
+      <div class="footer-section links">
+        <h3>About School</h3>
+        <ul>
+          <li style="margin: 6px;"><a href="">Home</a></li>
+          <li style="margin: 6px;"><a href="">About</a></li>
+          <li style="margin: 6px;"><a href="">Facilities</a></li>
+          <li style="margin: 6px;"><a href="">Admission</a></li>
+        </ul>
+      </div>
+      <div class="footer-section social">
+        <h3>Keep In Touch</h3>
+        <div class="social-icons">
+          <a href=""><img src="assets/fb.png" alt=""></i></a>
+          <a href=""><img src="assets/dribble.png" alt=""></a>
+          <a href=""><img src="assets/twitter.png" alt=""></a>
+          <a href=""><img src="assets/google+.png" alt=""></a>
+        </div>
       </div>
     </div>
   </footer>
@@ -122,4 +177,5 @@
     </marquee>
   </div>
 </body>
+
 </html>
